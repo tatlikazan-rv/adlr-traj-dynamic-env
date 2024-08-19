@@ -1,0 +1,43 @@
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 100, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 5, 'maxsize_ReplayMemory': 100000, 'action_smoothing': False, 'action_history_size': 3, 'select_action_filter': True, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': True, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Testing random seed: tensor([0.6346, 0.6923])
+Pretrain episode: 0
+Pretrain episode: 1
+Pretrain episode: 2
+Pretrain episode: 3
+Pretrain episode: 4
+Pretrain complete
+Normal training episode: 0
+Normal training episode: 1
+Normal training episode: 2
+Normal training episode: 3
+Normal training episode: 4
+Normal training episode: 5
+Normal training episode: 6
+Normal training episode: 7
+Normal training episode: 8
+Normal training episode: 9
+Traceback (most recent call last):
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py", line 531, in <module>
+    print("Normal training episode: " + str(i_episode))
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1907, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1291, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 627, in publish_output_raw
+    o.timestamp.GetCurrentTime()
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/google/protobuf/internal/well_known_types.py", line 194, in GetCurrentTime
+    self.FromDatetime(datetime.utcnow())
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/google/protobuf/internal/well_known_types.py", line 249, in FromDatetime
+    self.seconds = calendar.timegm(dt.utctimetuple())
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/calendar.py", line 658, in timegm
+    days = datetime.date(year, month, 1).toordinal() - _EPOCH_ORD + day - 1
+KeyboardInterrupt
+Normal training episode: 10
+Normal training episode: 11
+Normal training episode: 12
+Normal training episode: 13
+Normal training episode: 14

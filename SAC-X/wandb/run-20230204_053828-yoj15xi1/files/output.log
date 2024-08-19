@@ -1,0 +1,113 @@
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 100, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 100, 'maxsize_ReplayMemory': 100000, 'action_smoothing': True, 'action_history_size': 3, 'select_action_filter': True, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': True, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Testing random seed: tensor([0.6346, 0.6923])
+Pretrain complete
+Normal training episode: 0
+Normal training episode: 1
+Normal training episode: 2
+Normal training episode: 3
+Normal training episode: 4
+Normal training episode: 5
+Normal training episode: 6
+Normal training episode: 7
+Normal training episode: 8
+Normal training episode: 9
+Normal training episode: 10
+Normal training episode: 11
+Normal training episode: 12
+Normal training episode: 13
+Normal training episode: 14
+Normal training episode: 15
+Normal training episode: 16
+Normal training episode: 17
+Normal training episode: 18
+Normal training episode: 19
+Normal training episode: 20
+Normal training episode: 21
+Normal training episode: 22
+Normal training episode: 23
+Target reached
+Normal training episode: 24
+Normal training episode: 25
+Target reached
+Normal training episode: 26
+Normal training episode: 27
+Normal training episode: 28
+Normal training episode: 29
+Normal training episode: 30
+Normal training episode: 31
+Normal training episode: 32
+Normal training episode: 33
+Normal training episode: 34
+Normal training episode: 35
+Normal training episode: 36
+Normal training episode: 37
+Normal training episode: 38
+Normal training episode: 39
+Normal training episode: 40
+Normal training episode: 41
+Normal training episode: 42
+Normal training episode: 43
+Normal training episode: 44
+Normal training episode: 45
+Normal training episode: 46
+Normal training episode: 47
+Normal training episode: 48
+Normal training episode: 49
+Normal training episode: 50
+Target reached
+Normal training episode: 51
+Normal training episode: 52
+Normal training episode: 53
+Normal training episode: 54
+Normal training episode: 55
+Normal training episode: 56
+Normal training episode: 57
+Normal training episode: 58
+Normal training episode: 59
+Normal training episode: 60
+Normal training episode: 61
+Normal training episode: 62
+Normal training episode: 63
+Normal training episode: 64
+Normal training episode: 65
+Normal training episode: 66
+Normal training episode: 67
+Normal training episode: 68
+Normal training episode: 69
+Normal training episode: 70
+Normal training episode: 71
+Normal training episode: 72
+Normal training episode: 73
+Normal training episode: 74
+Normal training episode: 75
+Normal training episode: 76
+Normal training episode: 77
+Normal training episode: 78
+Normal training episode: 79
+Normal training episode: 80
+Normal training episode: 81
+Normal training episode: 82
+Normal training episode: 83
+Normal training episode: 84
+Normal training episode: 85
+Normal training episode: 86
+Normal training episode: 87
+Normal training episode: 88
+Normal training episode: 89
+Normal training episode: 90
+Normal training episode: 91
+Normal training episode: 92
+Normal training episode: 93
+Normal training episode: 94
+Normal training episode: 95
+Normal training episode: 96
+Normal training episode: 97
+Normal training episode: 98
+Normal training episode: 99
+Normal training complete
+created folder :  model_pretrain/
+Saving models ...
+Done
+Complete

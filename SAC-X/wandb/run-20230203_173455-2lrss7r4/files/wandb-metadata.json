@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.15.0-58-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-02-03T16:34:56.561695",
+    "startedAt": "2023-02-03T16:34:55.867017",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py",
+    "codePath": "SAC-X/training.py",
+    "git": {
+        "remote": "git@github.com:silence1998/tum-adlr-09.git",
+        "commit": "9b39e2a5b149d0ad6df9520fbf73fb9b6044a19d"
+    },
+    "email": "volkantatlikazan@gmail.com",
+    "root": "/home/volkan/31_Projects/adlr/tum-adlr-09",
+    "host": "volkan-Y70",
+    "username": "volkan",
+    "executable": "/home/volkan/anaconda3/envs/adlr/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1.482375,
+        "min": 800.0,
+        "max": 2880.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.0,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 0.9,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 0.9,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 3.176,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 0.9,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 1.1,
+            "min": 800.0,
+            "max": 2880.0
+        },
+        {
+            "current": 1.5,
+            "min": 800.0,
+            "max": 2880.0
+        }
+    ],
+    "disk": {
+        "total": 233.22490310668945,
+        "used": 209.4640235900879
+    },
+    "gpu": "NVIDIA GeForce GTX 860M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 860M",
+            "memory_total": 4242604032
+        }
+    ],
+    "memory": {
+        "total": 15.53933334350586
+    }
+}

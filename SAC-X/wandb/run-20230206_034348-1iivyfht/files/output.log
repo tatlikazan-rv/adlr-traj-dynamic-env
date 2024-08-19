@@ -1,0 +1,13 @@
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 3000, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 1000, 'maxsize_ReplayMemory': 100000, 'action_smoothing': True, 'action_history_size': 3, 'select_action_filter': True, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': True, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Testing random seed: tensor([0.6346, 0.6923])
+Pretrain episode: 0
+Pretrain episode: 1
+Pretrain episode: 2
+Pretrain episode: 3
+Pretrain episode: 4
+Pretrain episode: 5
+Pretrain episode: 6
+Pretrain episode: 7
+Pretrain episode: 8

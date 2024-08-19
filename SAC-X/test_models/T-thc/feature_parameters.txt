@@ -1,0 +1,1 @@
+{"pretrain": true, "num_episodes_pretrain": 1000, "maxsize_ReplayMemory": 100000, "action_smoothing": false, "action_history_size": 3, "select_action_filter": false, "select_action_filter_after_episode": 70, "sort_obstacles": true, "apply_environment_seed": true, "seed_init_value": 3407, "plot_durations": false, "plot_sigma": false, "scheduler_period": 2}

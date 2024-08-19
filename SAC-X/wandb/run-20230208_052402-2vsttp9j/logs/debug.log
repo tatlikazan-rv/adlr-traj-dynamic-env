@@ -1,0 +1,31 @@
+2023-02-08 05:24:02,217 INFO    MainThread:321462 [wandb_setup.py:_flush():68] Configure stats pid to 321462
+2023-02-08 05:24:02,217 INFO    MainThread:321462 [wandb_setup.py:_flush():68] Loading settings from /home/volkan/.config/wandb/settings
+2023-02-08 05:24:02,217 INFO    MainThread:321462 [wandb_setup.py:_flush():68] Loading settings from /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/settings
+2023-02-08 05:24:02,217 INFO    MainThread:321462 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-08 05:24:02,217 INFO    MainThread:321462 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'SAC-X/training.py', 'program': '/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py'}
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:_log_setup():476] Logging user logs to /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230208_052402-2vsttp9j/logs/debug.log
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:_log_setup():477] Logging internal logs to /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230208_052402-2vsttp9j/logs/debug-internal.log
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:init():516] calling init triggers
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:init():569] starting backend
+2023-02-08 05:24:02,218 INFO    MainThread:321462 [wandb_init.py:init():573] setting up manager
+2023-02-08 05:24:02,244 INFO    MainThread:321462 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-08 05:24:02,260 INFO    MainThread:321462 [wandb_init.py:init():580] backend started and connected
+2023-02-08 05:24:02,268 INFO    MainThread:321462 [wandb_init.py:init():658] updated telemetry
+2023-02-08 05:24:02,298 INFO    MainThread:321462 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-02-08 05:24:02,936 INFO    MainThread:321462 [wandb_run.py:_on_init():2000] communicating current version
+2023-02-08 05:24:03,036 INFO    MainThread:321462 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-02-08 05:24:03,036 INFO    MainThread:321462 [wandb_init.py:init():728] starting run threads in backend
+2023-02-08 05:24:08,072 INFO    MainThread:321462 [wandb_run.py:_console_start():1980] atexit reg
+2023-02-08 05:24:08,072 INFO    MainThread:321462 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-02-08 05:24:08,072 INFO    MainThread:321462 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-02-08 05:24:08,072 INFO    MainThread:321462 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-02-08 05:24:08,074 INFO    MainThread:321462 [wandb_init.py:init():765] run started, returning control to user process
+2023-02-08 05:24:08,140 INFO    MainThread:321462 [wandb_run.py:_config_callback():1160] config_cb None None {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 100, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 80, 'maxsize_ReplayMemory': 100000, 'action_smoothing': False, 'action_history_size': 3, 'select_action_filter': True, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': True, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+2023-02-08 05:24:10,226 INFO    MainThread:321462 [wandb_watch.py:watch():51] Watching
+2023-02-08 05:24:10,227 INFO    MainThread:321462 [wandb_watch.py:watch():51] Watching
+2023-02-08 05:24:10,228 INFO    MainThread:321462 [wandb_watch.py:watch():51] Watching
+2023-02-08 05:24:10,228 INFO    MainThread:321462 [wandb_watch.py:watch():51] Watching
+2023-02-08 05:24:10,229 INFO    MainThread:321462 [wandb_watch.py:watch():51] Watching

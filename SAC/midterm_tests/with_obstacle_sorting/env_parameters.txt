@@ -1,0 +1,1 @@
+{"num_obstacles": 5, "object_size": 20, "window_size": 512}

@@ -1,0 +1,16 @@
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 3000, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 1000, 'maxsize_ReplayMemory': 100000, 'action_smoothing': False, 'action_history_size': 3, 'select_action_filter': False, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': False, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Traceback (most recent call last):
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py", line 486, in <module>
+    optimize_model(hyper_parameters['entropy_factor'])
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py", line 83, in optimize_model
+    valueNet.optimizer.step()
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/torch/optim/optimizer.py", line 113, in wrapper
+    return func(*args, **kwargs)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/torch/optim/adam.py", line 136, in step
+    state = self.state[p]
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/torch/_tensor.py", line 732, in __hash__
+    if has_torch_function_unary(self):

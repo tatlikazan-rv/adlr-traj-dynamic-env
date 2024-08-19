@@ -1,0 +1,26 @@
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 100, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': False, 'num_episodes_pretrain': 100, 'maxsize_ReplayMemory': 100000, 'action_smoothing': False, 'action_history_size': 3, 'select_action_filter': True, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': True, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Testing random seed: tensor([0.6346, 0.6923])
+Normal training episode: 0
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Normal training episode: 1
+Normal training episode: 2
+Normal training episode: 3
+Normal training episode: 4
+Normal training episode: 5
+Normal training episode: 6
+Normal training episode: 7
+Normal training episode: 8
+Normal training episode: 9
+Normal training episode: 10
+Normal training episode: 11
+Normal training episode: 12
+Normal training episode: 13
+Normal training episode: 14
+Normal training episode: 15
+Normal training episode: 16
+Normal training episode: 17
+Normal training episode: 18
+Normal training episode: 19
+Normal training episode: 20
+Normal training episode: 21

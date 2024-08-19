@@ -1,0 +1,44 @@
+/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+dict: {'num_obstacles': 5, 'object_size': 20, 'window_size': 512, 'action_step_scaling': 20, 'obstacle_step_scaling': 5, 'delta_T': 1, 'render_fps': 24, 'input_dims': 26, 'batch_size': 4096, 'gamma': 0.999, 'target_update': 10, 'alpha': 0.0003, 'beta': 0.0003, 'tau': 0.005, 'entropy_factor': 0.5, 'entropy_factor_final': 0.5, 'num_episodes': 3000, 'sigma_init': 2.0, 'sigma_final': 2.0, 'pretrain': True, 'num_episodes_pretrain': 1000, 'maxsize_ReplayMemory': 100000, 'action_smoothing': False, 'action_history_size': 3, 'select_action_filter': False, 'select_action_filter_after_episode': 70, 'sort_obstacles': True, 'apply_environment_seed': False, 'seed_init_value': 3407, 'plot_durations': True, 'plot_sigma': True, 'scheduler_period': 2}
+Traceback (most recent call last):
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py", line 490, in <module>
+    plot_durations()
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py", line 140, in plot_durations
+    plt.pause(0.001)  # pause a bit so that plots are updated
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/pyplot.py", line 555, in pause
+    canvas.draw_idle()
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 2054, in draw_idle
+    self.draw(*args, **kwargs)
+  File "/snap/pycharm-professional/319/plugins/python/helpers/pycharm_matplotlib_backend/backend_interagg.py", line 94, in draw
+    FigureCanvasAgg.draw(self)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/backends/backend_agg.py", line 405, in draw
+    self.figure.draw(self.renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 74, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/figure.py", line 3071, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/axes/_base.py", line 3107, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/image.py", line 131, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/axis.py", line 1316, in draw
+    self.label.draw(renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/text.py", line 686, in draw
+    with self._cm_set(text=self._get_wrapped_text()):
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 1203, in _cm_set
+    self.set(**kwargs)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/matplotlib/artist.py", line 117, in <lambda>
+    cls.set = lambda self, **kwargs: Artist.set(self, **kwargs)

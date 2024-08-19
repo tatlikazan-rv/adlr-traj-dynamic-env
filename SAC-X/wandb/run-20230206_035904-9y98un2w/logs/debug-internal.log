@@ -1,0 +1,54 @@
+2023-02-06 03:59:04,505 INFO    StreamThr :139764 [internal.py:wandb_internal():88] W&B internal server running at pid: 139764, started at: 2023-02-06 03:59:04.504304
+2023-02-06 03:59:04,506 DEBUG   HandlerThread:139764 [handler.py:handle_request():139] handle_request: status
+2023-02-06 03:59:04,508 DEBUG   SenderThread:139764 [sender.py:send_request():317] send_request: status
+2023-02-06 03:59:04,509 DEBUG   SenderThread:139764 [sender.py:send():303] send: header
+2023-02-06 03:59:04,509 INFO    WriterThread:139764 [datastore.py:open_for_write():75] open: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/run-9y98un2w.wandb
+2023-02-06 03:59:04,528 DEBUG   SenderThread:139764 [sender.py:send():303] send: run
+2023-02-06 03:59:04,914 INFO    SenderThread:139764 [dir_watcher.py:__init__():216] watching files in: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files
+2023-02-06 03:59:04,914 INFO    SenderThread:139764 [sender.py:_start_run_threads():928] run started: 9y98un2w with start time 1675652344.503415
+2023-02-06 03:59:04,915 DEBUG   SenderThread:139764 [sender.py:send():303] send: summary
+2023-02-06 03:59:04,915 INFO    SenderThread:139764 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-02-06 03:59:04,994 DEBUG   HandlerThread:139764 [handler.py:handle_request():139] handle_request: check_version
+2023-02-06 03:59:04,994 DEBUG   SenderThread:139764 [sender.py:send_request():317] send_request: check_version
+2023-02-06 03:59:05,092 DEBUG   HandlerThread:139764 [handler.py:handle_request():139] handle_request: run_start
+2023-02-06 03:59:05,095 DEBUG   HandlerThread:139764 [system_info.py:__init__():31] System info init
+2023-02-06 03:59:05,095 DEBUG   HandlerThread:139764 [system_info.py:__init__():46] System info init done
+2023-02-06 03:59:05,096 INFO    HandlerThread:139764 [system_monitor.py:start():150] Starting system monitor
+2023-02-06 03:59:05,096 INFO    SystemMonitor:139764 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-06 03:59:05,096 INFO    HandlerThread:139764 [system_monitor.py:probe():168] Collecting system info
+2023-02-06 03:59:05,096 INFO    SystemMonitor:139764 [interfaces.py:start():168] Started cpu
+2023-02-06 03:59:05,097 INFO    SystemMonitor:139764 [interfaces.py:start():168] Started disk
+2023-02-06 03:59:05,098 INFO    SystemMonitor:139764 [interfaces.py:start():168] Started gpu
+2023-02-06 03:59:05,098 INFO    SystemMonitor:139764 [interfaces.py:start():168] Started memory
+2023-02-06 03:59:05,098 INFO    SystemMonitor:139764 [interfaces.py:start():168] Started network
+2023-02-06 03:59:05,122 DEBUG   HandlerThread:139764 [system_info.py:probe():195] Probing system
+2023-02-06 03:59:05,131 DEBUG   HandlerThread:139764 [system_info.py:_probe_git():180] Probing git
+2023-02-06 03:59:05,149 DEBUG   HandlerThread:139764 [system_info.py:_probe_git():188] Probing git done
+2023-02-06 03:59:05,149 DEBUG   HandlerThread:139764 [system_info.py:probe():241] Probing system done
+2023-02-06 03:59:05,149 DEBUG   HandlerThread:139764 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2023-02-06T02:59:05.122751', 'startedAt': '2023-02-06T02:59:04.490799', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py', 'codePath': 'SAC-X/training.py', 'git': {'remote': 'git@github.com:silence1998/tum-adlr-09.git', 'commit': '977c1cf9525ddc536ae635d2c5d2283692a8b7a6'}, 'email': 'volkantatlikazan@gmail.com', 'root': '/home/volkan/31_Projects/adlr/tum-adlr-09', 'host': 'volkan-Y70', 'username': 'volkan', 'executable': '/home/volkan/anaconda3/envs/adlr/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2.200875, 'min': 800.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 1.3, 'min': 800.0, 'max': 3600.0}, {'current': 1.6, 'min': 800.0, 'max': 3600.0}, {'current': 3.4, 'min': 800.0, 'max': 3600.0}, {'current': 1.9, 'min': 800.0, 'max': 3600.0}, {'current': 3.407, 'min': 800.0, 'max': 3600.0}, {'current': 2.0, 'min': 800.0, 'max': 3600.0}, {'current': 2.1, 'min': 800.0, 'max': 3600.0}, {'current': 1.9, 'min': 800.0, 'max': 3600.0}], 'disk': {'total': 233.22490310668945, 'used': 210.39026641845703}, 'gpu': 'NVIDIA GeForce GTX 860M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 860M', 'memory_total': 4242604032}], 'memory': {'total': 15.53933334350586}}
+2023-02-06 03:59:05,149 INFO    HandlerThread:139764 [system_monitor.py:probe():178] Finished collecting system info
+2023-02-06 03:59:05,149 INFO    HandlerThread:139764 [system_monitor.py:probe():181] Publishing system info
+2023-02-06 03:59:05,149 DEBUG   HandlerThread:139764 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-06 03:59:05,150 DEBUG   HandlerThread:139764 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-06 03:59:05,150 DEBUG   HandlerThread:139764 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-06 03:59:05,916 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/wandb-summary.json
+2023-02-06 03:59:05,916 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/conda-environment.yaml
+2023-02-06 03:59:05,917 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/requirements.txt
+2023-02-06 03:59:08,878 DEBUG   HandlerThread:139764 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-06 03:59:08,879 INFO    HandlerThread:139764 [system_monitor.py:probe():183] Finished publishing system info
+2023-02-06 03:59:08,912 DEBUG   SenderThread:139764 [sender.py:send():303] send: files
+2023-02-06 03:59:08,912 INFO    SenderThread:139764 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-02-06 03:59:08,919 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/conda-environment.yaml
+2023-02-06 03:59:08,919 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/wandb-metadata.json
+2023-02-06 03:59:08,919 DEBUG   HandlerThread:139764 [handler.py:handle_request():139] handle_request: stop_status
+2023-02-06 03:59:08,920 DEBUG   SenderThread:139764 [sender.py:send_request():317] send_request: stop_status
+2023-02-06 03:59:09,097 DEBUG   SenderThread:139764 [sender.py:send():303] send: telemetry
+2023-02-06 03:59:09,099 DEBUG   SenderThread:139764 [sender.py:send():303] send: config
+2023-02-06 03:59:09,484 INFO    Thread-16 :139764 [upload_job.py:push():143] Uploaded file /tmp/tmp9018t0lxwandb/296m923j-wandb-metadata.json
+2023-02-06 03:59:09,919 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log
+2023-02-06 03:59:10,355 DEBUG   SenderThread:139764 [sender.py:send():303] send: telemetry
+2023-02-06 03:59:11,920 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log
+2023-02-06 03:59:13,920 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log
+2023-02-06 03:59:15,921 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log
+2023-02-06 03:59:17,922 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log
+2023-02-06 03:59:19,922 INFO    Thread-13 :139764 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230206_035904-9y98un2w/files/output.log

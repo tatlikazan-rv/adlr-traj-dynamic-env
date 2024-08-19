@@ -1,0 +1,170 @@
+2023-02-03 17:38:34,491 INFO    StreamThr :21844 [internal.py:wandb_internal():88] W&B internal server running at pid: 21844, started at: 2023-02-03 17:38:34.491154
+2023-02-03 17:38:34,493 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: status
+2023-02-03 17:38:34,495 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: status
+2023-02-03 17:38:34,497 DEBUG   SenderThread:21844 [sender.py:send():303] send: header
+2023-02-03 17:38:34,497 INFO    WriterThread:21844 [datastore.py:open_for_write():75] open: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/run-13qxzoh5.wandb
+2023-02-03 17:38:34,516 DEBUG   SenderThread:21844 [sender.py:send():303] send: run
+2023-02-03 17:38:34,918 INFO    SenderThread:21844 [dir_watcher.py:__init__():216] watching files in: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files
+2023-02-03 17:38:34,918 INFO    SenderThread:21844 [sender.py:_start_run_threads():928] run started: 13qxzoh5 with start time 1675442314.489971
+2023-02-03 17:38:34,918 DEBUG   SenderThread:21844 [sender.py:send():303] send: summary
+2023-02-03 17:38:34,918 INFO    SenderThread:21844 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-02-03 17:38:35,005 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: check_version
+2023-02-03 17:38:35,005 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: check_version
+2023-02-03 17:38:35,104 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: run_start
+2023-02-03 17:38:35,107 DEBUG   HandlerThread:21844 [system_info.py:__init__():31] System info init
+2023-02-03 17:38:35,108 DEBUG   HandlerThread:21844 [system_info.py:__init__():46] System info init done
+2023-02-03 17:38:35,108 INFO    HandlerThread:21844 [system_monitor.py:start():150] Starting system monitor
+2023-02-03 17:38:35,108 INFO    SystemMonitor:21844 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-03 17:38:35,108 INFO    HandlerThread:21844 [system_monitor.py:probe():168] Collecting system info
+2023-02-03 17:38:35,108 INFO    SystemMonitor:21844 [interfaces.py:start():168] Started cpu
+2023-02-03 17:38:35,109 INFO    SystemMonitor:21844 [interfaces.py:start():168] Started disk
+2023-02-03 17:38:35,110 INFO    SystemMonitor:21844 [interfaces.py:start():168] Started gpu
+2023-02-03 17:38:35,112 INFO    SystemMonitor:21844 [interfaces.py:start():168] Started memory
+2023-02-03 17:38:35,112 INFO    SystemMonitor:21844 [interfaces.py:start():168] Started network
+2023-02-03 17:38:35,154 DEBUG   HandlerThread:21844 [system_info.py:probe():195] Probing system
+2023-02-03 17:38:35,162 DEBUG   HandlerThread:21844 [system_info.py:_probe_git():180] Probing git
+2023-02-03 17:38:35,180 DEBUG   HandlerThread:21844 [system_info.py:_probe_git():188] Probing git done
+2023-02-03 17:38:35,180 DEBUG   HandlerThread:21844 [system_info.py:probe():241] Probing system done
+2023-02-03 17:38:35,180 DEBUG   HandlerThread:21844 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2023-02-03T16:38:35.154830', 'startedAt': '2023-02-03T16:38:34.474170', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/training.py', 'codePath': 'SAC-X/training.py', 'git': {'remote': 'git@github.com:silence1998/tum-adlr-09.git', 'commit': '9b39e2a5b149d0ad6df9520fbf73fb9b6044a19d'}, 'email': 'volkantatlikazan@gmail.com', 'root': '/home/volkan/31_Projects/adlr/tum-adlr-09', 'host': 'volkan-Y70', 'username': 'volkan', 'executable': '/home/volkan/anaconda3/envs/adlr/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2.33475, 'min': 800.0, 'max': 3240.0}, 'cpu_freq_per_core': [{'current': 0.9, 'min': 800.0, 'max': 3240.0}, {'current': 2.676, 'min': 800.0, 'max': 3240.0}, {'current': 1.1, 'min': 800.0, 'max': 3240.0}, {'current': 0.9, 'min': 800.0, 'max': 3240.0}, {'current': 1.1, 'min': 800.0, 'max': 3240.0}, {'current': 2.577, 'min': 800.0, 'max': 3240.0}, {'current': 1.0, 'min': 800.0, 'max': 3240.0}, {'current': 1.1, 'min': 800.0, 'max': 3240.0}], 'disk': {'total': 233.22490310668945, 'used': 209.46485900878906}, 'gpu': 'NVIDIA GeForce GTX 860M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 860M', 'memory_total': 4242604032}], 'memory': {'total': 15.53933334350586}}
+2023-02-03 17:38:35,180 INFO    HandlerThread:21844 [system_monitor.py:probe():178] Finished collecting system info
+2023-02-03 17:38:35,181 INFO    HandlerThread:21844 [system_monitor.py:probe():181] Publishing system info
+2023-02-03 17:38:35,181 DEBUG   HandlerThread:21844 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-03 17:38:35,181 DEBUG   HandlerThread:21844 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-03 17:38:35,181 DEBUG   HandlerThread:21844 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-03 17:38:35,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/requirements.txt
+2023-02-03 17:38:35,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/conda-environment.yaml
+2023-02-03 17:38:35,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-summary.json
+2023-02-03 17:38:39,539 DEBUG   HandlerThread:21844 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-03 17:38:39,543 INFO    HandlerThread:21844 [system_monitor.py:probe():183] Finished publishing system info
+2023-02-03 17:38:39,581 DEBUG   SenderThread:21844 [sender.py:send():303] send: files
+2023-02-03 17:38:39,582 INFO    SenderThread:21844 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-02-03 17:38:39,589 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: stop_status
+2023-02-03 17:38:39,590 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: stop_status
+2023-02-03 17:38:39,773 DEBUG   SenderThread:21844 [sender.py:send():303] send: telemetry
+2023-02-03 17:38:39,775 DEBUG   SenderThread:21844 [sender.py:send():303] send: config
+2023-02-03 17:38:39,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/conda-environment.yaml
+2023-02-03 17:38:39,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-metadata.json
+2023-02-03 17:38:39,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_created():275] file/dir created: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log
+2023-02-03 17:38:40,136 INFO    Thread-16 :21844 [upload_job.py:push():143] Uploaded file /tmp/tmp0knorgplwandb/9cr7rw1d-wandb-metadata.json
+2023-02-03 17:38:41,352 DEBUG   SenderThread:21844 [sender.py:send():303] send: telemetry
+2023-02-03 17:38:41,374 DEBUG   SenderThread:21844 [sender.py:send():303] send: exit
+2023-02-03 17:38:41,374 INFO    SenderThread:21844 [sender.py:send_exit():442] handling exit code: 1
+2023-02-03 17:38:41,374 INFO    SenderThread:21844 [sender.py:send_exit():444] handling runtime: 6
+2023-02-03 17:38:41,377 INFO    SenderThread:21844 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-02-03 17:38:41,377 INFO    SenderThread:21844 [sender.py:send_exit():450] send defer
+2023-02-03 17:38:41,377 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,378 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 0
+2023-02-03 17:38:41,378 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,378 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-02-03 17:38:41,378 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 1
+2023-02-03 17:38:41,378 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,379 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 1
+2023-02-03 17:38:41,379 INFO    HandlerThread:21844 [system_monitor.py:finish():160] Stopping system monitor
+2023-02-03 17:38:41,379 DEBUG   SystemMonitor:21844 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-03 17:38:41,379 INFO    HandlerThread:21844 [interfaces.py:finish():173] Joined cpu
+2023-02-03 17:38:41,379 DEBUG   SystemMonitor:21844 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-03 17:38:41,380 INFO    HandlerThread:21844 [interfaces.py:finish():173] Joined disk
+2023-02-03 17:38:41,380 DEBUG   SystemMonitor:21844 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-03 17:38:41,439 INFO    HandlerThread:21844 [interfaces.py:finish():173] Joined gpu
+2023-02-03 17:38:41,439 INFO    HandlerThread:21844 [interfaces.py:finish():173] Joined memory
+2023-02-03 17:38:41,439 INFO    HandlerThread:21844 [interfaces.py:finish():173] Joined network
+2023-02-03 17:38:41,439 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,439 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-02-03 17:38:41,440 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 2
+2023-02-03 17:38:41,440 DEBUG   SenderThread:21844 [sender.py:send():303] send: stats
+2023-02-03 17:38:41,440 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,440 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 2
+2023-02-03 17:38:41,440 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,440 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-02-03 17:38:41,441 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 3
+2023-02-03 17:38:41,441 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,441 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 3
+2023-02-03 17:38:41,441 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,441 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-02-03 17:38:41,441 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 4
+2023-02-03 17:38:41,441 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,441 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 4
+2023-02-03 17:38:41,442 DEBUG   SenderThread:21844 [sender.py:send():303] send: summary
+2023-02-03 17:38:41,442 INFO    SenderThread:21844 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-02-03 17:38:41,442 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,442 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-02-03 17:38:41,442 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 5
+2023-02-03 17:38:41,443 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,443 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 5
+2023-02-03 17:38:41,443 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,443 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-02-03 17:38:41,664 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 6
+2023-02-03 17:38:41,665 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:41,665 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 6
+2023-02-03 17:38:41,665 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:41,665 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-02-03 17:38:41,920 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/config.yaml
+2023-02-03 17:38:41,921 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log
+2023-02-03 17:38:41,921 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-summary.json
+2023-02-03 17:38:42,374 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: poll_exit
+2023-02-03 17:38:43,921 INFO    Thread-13 :21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log
+2023-02-03 17:38:45,788 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 7
+2023-02-03 17:38:45,788 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: poll_exit
+2023-02-03 17:38:45,789 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:45,789 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 7
+2023-02-03 17:38:45,790 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:45,790 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-02-03 17:38:45,790 INFO    SenderThread:21844 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-03 17:38:45,922 INFO    SenderThread:21844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log
+2023-02-03 17:38:45,923 INFO    SenderThread:21844 [dir_watcher.py:finish():392] scan: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files
+2023-02-03 17:38:45,923 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-summary.json wandb-summary.json
+2023-02-03 17:38:45,923 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log output.log
+2023-02-03 17:38:45,923 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-metadata.json wandb-metadata.json
+2023-02-03 17:38:45,927 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/requirements.txt requirements.txt
+2023-02-03 17:38:45,933 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/config.yaml config.yaml
+2023-02-03 17:38:45,938 INFO    SenderThread:21844 [dir_watcher.py:finish():406] scan save: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/conda-environment.yaml conda-environment.yaml
+2023-02-03 17:38:45,943 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 8
+2023-02-03 17:38:45,946 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:45,947 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 8
+2023-02-03 17:38:45,947 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:45,948 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-02-03 17:38:45,948 INFO    SenderThread:21844 [file_pusher.py:finish():168] shutting down file pusher
+2023-02-03 17:38:46,488 INFO    Thread-18 :21844 [upload_job.py:push():143] Uploaded file /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/output.log
+2023-02-03 17:38:46,498 INFO    Thread-19 :21844 [upload_job.py:push():143] Uploaded file /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/requirements.txt
+2023-02-03 17:38:46,501 INFO    Thread-21 :21844 [upload_job.py:push():143] Uploaded file /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/conda-environment.yaml
+2023-02-03 17:38:46,513 INFO    Thread-20 :21844 [upload_job.py:push():143] Uploaded file /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/config.yaml
+2023-02-03 17:38:46,515 INFO    Thread-17 :21844 [upload_job.py:push():143] Uploaded file /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/files/wandb-summary.json
+2023-02-03 17:38:46,715 INFO    Thread-12 :21844 [sender.py:transition_state():463] send defer: 9
+2023-02-03 17:38:46,716 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:46,716 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 9
+2023-02-03 17:38:46,716 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:46,716 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-02-03 17:38:46,716 INFO    SenderThread:21844 [file_pusher.py:join():173] waiting for file pusher
+2023-02-03 17:38:46,717 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 10
+2023-02-03 17:38:46,717 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:46,717 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 10
+2023-02-03 17:38:46,717 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:46,717 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-02-03 17:38:46,885 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 11
+2023-02-03 17:38:46,886 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:46,886 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 11
+2023-02-03 17:38:46,886 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:46,886 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-02-03 17:38:46,886 INFO    SenderThread:21844 [sender.py:transition_state():463] send defer: 12
+2023-02-03 17:38:46,887 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: defer
+2023-02-03 17:38:46,887 DEBUG   SenderThread:21844 [sender.py:send():303] send: final
+2023-02-03 17:38:46,888 INFO    HandlerThread:21844 [handler.py:handle_request_defer():162] handle defer: 12
+2023-02-03 17:38:46,888 DEBUG   SenderThread:21844 [sender.py:send():303] send: footer
+2023-02-03 17:38:46,888 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: defer
+2023-02-03 17:38:46,888 INFO    SenderThread:21844 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-02-03 17:38:46,889 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: poll_exit
+2023-02-03 17:38:46,889 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: poll_exit
+2023-02-03 17:38:46,890 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: server_info
+2023-02-03 17:38:46,891 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: get_summary
+2023-02-03 17:38:46,891 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: sampled_history
+2023-02-03 17:38:46,891 DEBUG   SenderThread:21844 [sender.py:send_request():317] send_request: server_info
+2023-02-03 17:38:47,257 INFO    MainThread:21844 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-02-03 17:38:47,257 INFO    MainThread:21844 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-02-03 17:38:47,258 INFO    MainThread:21844 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-02-03 17:38:47,258 DEBUG   HandlerThread:21844 [handler.py:handle_request():139] handle_request: shutdown
+2023-02-03 17:38:47,259 INFO    HandlerThread:21844 [handler.py:finish():814] shutting down handler
+2023-02-03 17:38:47,888 INFO    WriterThread:21844 [datastore.py:close():279] close: /home/volkan/31_Projects/adlr/tum-adlr-09/SAC-X/wandb/run-20230203_173834-13qxzoh5/run-13qxzoh5.wandb
+2023-02-03 17:38:48,257 INFO    SenderThread:21844 [sender.py:finish():1331] shutting down sender
+2023-02-03 17:38:48,257 INFO    SenderThread:21844 [file_pusher.py:finish():168] shutting down file pusher
+2023-02-03 17:38:48,257 INFO    SenderThread:21844 [file_pusher.py:join():173] waiting for file pusher
+2023-02-03 17:38:48,261 INFO    MainThread:21844 [internal.py:handle_exit():78] Internal process exited

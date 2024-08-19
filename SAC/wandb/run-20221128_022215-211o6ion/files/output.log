@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/volkan/31_Projects/adlr/tum-adlr-09/SAC/training.py", line 173, in <module>
+    wandb.config.update({env_parameters.update(hyper_parameters)})
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 181, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 169, in _update
+    parsed_dict = wandb_helper.parse_config(d)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_helper.py", line 14, in parse_config
+    params = _to_dict(params)
+  File "/home/volkan/anaconda3/envs/adlr/lib/python3.9/site-packages/wandb/sdk/wandb_helper.py", line 42, in _to_dict
+    raise TypeError("config must be a dict or have a __dict__ attribute.")
+TypeError: config must be a dict or have a __dict__ attribute.

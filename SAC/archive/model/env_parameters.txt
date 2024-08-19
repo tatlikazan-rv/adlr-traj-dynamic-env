@@ -1,0 +1,1 @@
+{"num_obstacles": 10, "object_radius": 10, "window_size": 256, "action_step_scaling": 0.8, "delta_T": 3, "render_fps": 24}
